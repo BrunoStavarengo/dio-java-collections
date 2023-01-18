@@ -32,7 +32,7 @@ public class Temperatura {
             soma += next;
         }
         media = soma/temperatura.size();
-        System.out.println("A media de temperatura do Primeiro semestre foi: " + media);
+        System.out.printf("A media de temperatura do Primeiro semestre foi:" + Math.round(media) + "ºc");
 
         //temperaturas acima da media
         System.out.println("\n\nMeses das temperaturas acima da média: ");
@@ -44,22 +44,22 @@ public class Temperatura {
             if (temp > media) {
                 switch (meses) {
                     case (0):
-                        System.out.println("1 - Janeiro: " + temp);
+                        System.out.println("1 - Janeiro: " + Math.round(temp) + "ºc");
                         break;
                     case (1):
-                        System.out.println("2 - Fevereiro: " + temp);
+                        System.out.println("2 - Fevereiro: " + Math.round(temp) + "ºc");
                         break;
                     case (2):
-                        System.out.println("3 - Março: " + temp);
+                        System.out.println("3 - Março: " + Math.round(temp) + "ºc");
                         break;
                     case (3):
-                        System.out.println("4 - Abril: " + temp);
+                        System.out.println("4 - Abril: " + Math.round(temp) + "ºc");
                         break;
                     case (4):
-                        System.out.println("5 - Maio: " + temp);
+                        System.out.println("5 - Maio: " + Math.round(temp) + "ºc");
                         break;
                     case (5):
-                        System.out.println("6 - Junho: " + temp);
+                        System.out.println("6 - Junho: " + Math.round(temp) + "ºc");
                         break;
                     default:
                         System.out.println("Não houve temperatura acima da média.");
