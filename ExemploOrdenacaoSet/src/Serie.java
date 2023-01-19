@@ -13,14 +13,17 @@ public class Serie implements Comparable<Serie> {
     }
 
     public String getNome() {
+
         return nome;
     }
 
     public String getGenero() {
+
         return genero;
     }
 
     public Integer getTempoEpisodio() {
+
         return tempoEpisodio;
     }
 
