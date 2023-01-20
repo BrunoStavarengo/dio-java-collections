@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class ExemploMap {
 
     public static void main(String[] args) {
         System.out.println("Crie um dicionario que relacione os modelos de veiculos e seu consumo");
